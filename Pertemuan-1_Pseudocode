@@ -1,0 +1,18 @@
+Pseudocode dari Algoritma Mencari Angka Terbesar:
+Langkah 1: Masukkan angka pertama.
+Langkah 2: Masukkan angka kedua.
+Langkah 3: Buat kondisi pertama. Jika angka pertama lebih besar dari angka kedua, maka tampilkan angka pertama.
+Langkah 4: Buat kondisi kedua. Jika angka kedua lebih besar dari angka pertama, maka tampilkan angka kedua.
+Langkah 5: Komputer menampilkan angka terbesar sesuai kondisi yang sesuai.
+
+#Pseudocode
+Mulai
+  Input angkaPertama
+  Input angkaKedua
+  Jika angkaPertama > angkaKedua maka
+    Cetak angkaPertama
+  Jika tidak, jika angkaKedua > angkaPertama maka
+    Cetak angkaKedua
+  Jika tidak, jika angkaPertama == angkaKedua maka
+    Cetak angkaPertama
+Selesai
