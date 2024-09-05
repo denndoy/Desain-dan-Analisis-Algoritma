@@ -1,0 +1,73 @@
+# Nama: Dandy Tri Widianto
+# NIM: 2023071011
+# Desain Analisis Algoritma
+# Pertemuan-1_Tugas Latihan Algoritma dan Pseudocode
+
+1. Mencari KPK dari 3 dan 4:
+   - KPK (Kelipatan Persekutuan Terkecil) adalah bilangan bulat positif terkecil yang merupakan kelipatan dari kedua bilangan tersebut.
+   - Untuk mencari KPK dari 3 dan 4, kita dapat menggunakan algoritma berikut:
+     1. Hitung kelipatan dari masing-masing bilangan hingga kita temukan kelipatan yang sama.
+     2. KPK adalah kelipatan bersama terkecil.
+Pseudocode:
+Mulai
+  Fungsi KPK(a, b):
+    i = 1
+    while True:
+      jika (i * a) % b == 0 maka
+        kembalikan i * a
+      i = i + 1
+Selesai
+
+2. Fungsi untuk Menukar Posisi Dua Variabel x dan y (Manggis dan Pisang):
+   - Kita ingin menukar posisi manggis dan pisang di piring-piring yang diberikan.
+Pseudocode:
+Mulai
+  Fungsi TukarPosisi(manggis, pisang):
+    temp = manggis
+    manggis = pisang
+    pisang = temp
+    kembalikan manggis, pisang
+Selesai
+
+3. Menghitung Luas Segitiga:
+   - Luas segitiga dapat dihitung dengan rumus: Luas = (Alas × Tinggi) / 2.
+   - alas = 25 dan tinggi = 30.
+Pseudocode:
+Mulai
+  Fungsi HitungLuasSegitiga(alas, tinggi):
+    luas = (alas * tinggi) / 2
+    kembalikan luas
+Selesai
+
+4. Menghitung Luas Jajar Genjang:
+   - Luas jajar genjang dapat dihitung dengan rumus: Luas = panjang × tinggi.
+   - panjang = 5 dan tinggi = 3.
+Pseudocode:
+Mulai
+  Fungsi HitungLuasJajarGenjang(panjang, tinggi):
+    luas = panjang * tinggi
+    kembalikan luas
+Selesai
+
+5. Menghitung Volume Tabung:
+   - Volume tabung dapat dihitung dengan rumus: Volume = π × jari-jari^2 × tinggi.
+   - jari-jari = 3 dan tinggi = 5.
+Pseudocode:
+Mulai
+  Fungsi HitungVolumeTabung(jari_jari, tinggi):
+    pi = 3.14
+    volume = pi * (jari_jari ^ 2) * tinggi
+    kembalikan volume
+Selesai
+
+6. Menghitung Volume Kerucut:
+   - Volume kerucut dapat dihitung dengan rumus: Volume = (1/3) × π × jari-jari^2 × tinggi.
+   - diameter = 5 (sehingga jari-jari = 2.5) dan tinggi = 4.
+Pseudocode:
+Mulai
+  Fungsi HitungVolumeKerucut(diameter, tinggi):
+    pi = 3.14
+    jari_jari = diameter / 2
+    volume = (1/3) * pi * (jari_jari ^ 2) * tinggi
+    kembalikan volume
+Selesai
