@@ -1,0 +1,5 @@
+Algoritma KPK dari 3 dan 4
+1. Tentukan bilangan yang lebih besar antara 3 dan 4
+2. Inisialisasi KPK dengan bilangan yang lebih besar
+3. Selama KPK tidak habis dibagi 3 atau 4, tambahkan KPK dengan bilangan yang lebih besar
+4. Kembalikan nilai KPK

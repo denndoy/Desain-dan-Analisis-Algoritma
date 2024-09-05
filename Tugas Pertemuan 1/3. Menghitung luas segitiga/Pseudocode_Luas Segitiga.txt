@@ -1,0 +1,4 @@
+FUNCTION LuasSegitiga(alas, tinggi)
+    RETURN (alas * tinggi) / 2
+
+CETAK LuasSegitiga(25, 30)

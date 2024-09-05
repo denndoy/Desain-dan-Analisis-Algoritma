@@ -1,0 +1,5 @@
+Algoritma menghitung volume tabung:
+1. Tentukan jari-jari tabung
+2. Tentukan tinggi tabung
+3. Hitung volume dengan rumus: π * r^2 * t
+4. Tampilkan hasil

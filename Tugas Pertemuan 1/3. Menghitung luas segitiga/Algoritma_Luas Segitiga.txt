@@ -1,0 +1,5 @@
+Algoritma menghitung luas segitiga:
+1. Tentukan alas segitiga
+2. Tentukan tinggi segitiga
+3. Hitung luas dengan rumus: (alas * tinggi) / 2
+4. Tampilkan hasil

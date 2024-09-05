@@ -1,0 +1,5 @@
+FUNCTION VolumeTabung(jari_jari, tinggi)
+    pi = 3.14159
+    RETURN pi * jari_jari * jari_jari * tinggi
+
+CETAK VolumeTabung(3, 5)

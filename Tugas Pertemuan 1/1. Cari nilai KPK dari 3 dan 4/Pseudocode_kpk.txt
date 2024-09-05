@@ -1,0 +1,7 @@
+FUNCTION CariKPK(a, b)
+    KPK = MAX(a, b)
+    WHILE KPK TIDAK HABIS DIBAGI a ATAU KPK TIDAK HABIS DIBAGI b
+        KPK = KPK + MAX(a, b)
+    RETURN KPK
+
+CETAK CariKPK(3, 4)

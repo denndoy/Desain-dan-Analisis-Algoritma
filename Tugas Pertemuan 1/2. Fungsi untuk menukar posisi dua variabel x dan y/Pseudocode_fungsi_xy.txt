@@ -1,0 +1,10 @@
+FUNCTION TukarBuah(piring1, piring2)
+    temp = piring1
+    piring1 = piring2
+    piring2 = temp
+    RETURN piring1, piring2
+
+piring1 = "manggis"
+piring2 = "pisang"
+piring1, piring2 = TukarBuah(piring1, piring2)
+CETAK piring1, piring2

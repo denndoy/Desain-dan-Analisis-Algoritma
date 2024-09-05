@@ -1,0 +1,6 @@
+Algoritma menghitung volume kerucut:
+1. Tentukan diameter kerucut
+2. Hitung jari-jari (setengah diameter)
+3. Tentukan tinggi kerucut
+4. Hitung volume dengan rumus: (1/3) * π * r^2 * t
+5. Tampilkan hasil

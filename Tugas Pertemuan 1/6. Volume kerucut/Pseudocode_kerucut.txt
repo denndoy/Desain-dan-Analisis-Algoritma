@@ -1,0 +1,6 @@
+FUNCTION VolumeKerucut(diameter, tinggi)
+    pi = 3.14159
+    jari_jari = diameter / 2
+    RETURN (1/3) * pi * jari_jari * jari_jari * tinggi
+
+CETAK VolumeKerucut(5, 4)

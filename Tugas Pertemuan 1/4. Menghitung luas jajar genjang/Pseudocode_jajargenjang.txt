@@ -1,0 +1,4 @@
+FUNCTION LuasJajarGenjang(panjang, tinggi)
+    RETURN panjang * tinggi
+
+CETAK LuasJajarGenjang(5, 3)
